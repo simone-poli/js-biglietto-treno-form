@@ -26,25 +26,25 @@ console.log(priceInitial);
 const fullNameValue = selectName.value;
 
 let priceValue;
-if (selectAge.value === "minorenne") { 
+if (selectAge.value === "Minorenne") { 
     priceValue = priceInitial - (priceInitial * 20) / 100;
-} else if (selectAge.value === "over65") {
+} else if (selectAge.value === "Over65") {
     priceValue = priceInitial - (priceInitial * 40) / 100;
 } else {
     priceValue = priceInitial;
 }
 priceEl.innerHTML = priceValue.toFixed(2);
-
-
-
-
-
-
-
-
-
-
 fullNameEl.innerHTML = fullNameValue;
+
+
+
+
+
+
+
+
+
+
 
 
 })
